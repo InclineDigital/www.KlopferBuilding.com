@@ -1956,6 +1956,22 @@ label.error {
 .pager li > a {
   color: #4c779e; }
 
+header {
+  background-color: gray;
+  color: white;
+  text-shadow: 0 0 4px #4c779e;
+  background-image: url("../img/building-front.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+header .jumbotron {
+  background: transparent; }
+
+@media (min-width: 1024px) {
+  header .jumbotron {
+    padding: 8rem 0; } }
+
 /*-----------------------------------services and features------------------------------------------*/
 .services-box {
   text-align: center;

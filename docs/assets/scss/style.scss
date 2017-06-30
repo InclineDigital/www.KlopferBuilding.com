@@ -46,6 +46,27 @@
 .pager li>a{
     color: $skincolor;
 }
+
+header {
+  background-color: gray;
+  color: white;
+  text-shadow: 0 0 4px $skincolor;
+  background-image: url("../img/building-front.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header .jumbotron {
+  background: transparent;
+}
+
+@media(min-width:1024px) {
+  header .jumbotron {
+    padding: 8rem 0;
+  }
+}
+
 /*-----------------------------------services and features------------------------------------------*/
 .services-box{
   text-align: center;
@@ -300,7 +321,7 @@ h3.heading-progress {
     line-height: 10px;
     background: $skincolor;
     @include box-shadow (none);
-    
+
 }
 
 
@@ -547,7 +568,7 @@ a.carousel-control i{
         text-transform: uppercase;
         font-weight: 500;
         color:#000;
-        letter-spacing: 2px;        
+        letter-spacing: 2px;
     }
     p{
         margin-bottom: 30px;
@@ -672,8 +693,8 @@ a.carousel-control i{
         border-bottom: 2px solid #dcdcdc !important;
     }
     .navbar-toggleable-sm>.container {
-    padding-right: 15px; 
-     padding-left: 15px; 
+    padding-right: 15px;
+     padding-left: 15px;
     width: 100%;
 }
 .navbar-toggler{
